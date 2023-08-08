@@ -14,7 +14,7 @@ $ go get github.com/saudshaddad/queue
 
 The queue package tries to be as efficient as possible. It uses a doubly linked list as it's back bone. You can add element to the queue and dequeue element from the existing function in the struct.
 
-**Note:** The queue structure is not concurrent safe, you should use a mutex if you are passing the queue to different go routines
+**Note:** The queue struct is not concurrent safe, you should use a mutex if you are passing the queue to different go routines
 
 **Time complexity of the functions**
 - ``Enqueue(element any)``: O(1)
