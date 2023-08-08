@@ -20,13 +20,13 @@ func main() {
 	// fill the queue
 	index := 0
 	for {
-		if index == 10000000 {
+		if index == 1000000 {
 			break
 		}
 
 		user1 := &User{
 			name:   "saud shaddad",
-			mobile: "66766541",
+			mobile: "66763331",
 			Id:     index,
 		}
 
