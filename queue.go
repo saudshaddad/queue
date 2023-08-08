@@ -29,9 +29,8 @@ func (q *Queue[T]) Enqueue(element T) {
 	q.doubleList.PushFront(element)
 }
 
-// Returns the element that needs to be served in the queue and removes it from the queue
-//
-// # The function will return an error QueueErrorEmpty if the queue is empty
+// Returns the element that needs to be served in the queue and removes it from the queue.
+// The function will return an error QueueErrorEmpty if the queue is empty
 //
 // The time complexity is O(1)
 func (q *Queue[T]) Dequeue() (v T, e error) {
